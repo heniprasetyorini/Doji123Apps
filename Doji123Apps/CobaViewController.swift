@@ -10,10 +10,15 @@ import UIKit
 
 class CobaViewController: UIViewController {
 
+    
+    @IBOutlet var gifview: UIImageView!
+        
     @IBOutlet var canvas: CanvasUIImageView!
     @IBOutlet var angkaLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        gifview.loadGif(name: "giphy")
 
         // Do any additional setup after loading the view.
     }

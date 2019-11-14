@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F65C41FC237A9A3D007F152C /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F65C41FB237A9A3D007F152C /* giphy.gif */; };
+		F65C41FE237A9A51007F152C /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65C41FD237A9A51007F152C /* UIImage+Gif.swift */; };
 		F6971C78237945E100CC2CB7 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6971C77237945E100CC2CB7 /* MNISTClassifier.mlmodel */; };
 		F6971C7B2379506000CC2CB7 /* MNISTHandwritingRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6971C792379506000CC2CB7 /* MNISTHandwritingRecognition.swift */; };
 		F6971C7C2379506000CC2CB7 /* RecognitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6971C7A2379506000CC2CB7 /* RecognitionHandler.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F65C41FB237A9A3D007F152C /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		F65C41FD237A9A51007F152C /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		F6971C77237945E100CC2CB7 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 		F6971C792379506000CC2CB7 /* MNISTHandwritingRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNISTHandwritingRecognition.swift; sourceTree = "<group>"; };
 		F6971C7A2379506000CC2CB7 /* RecognitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionHandler.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		F6BE51A1237941870015AA9B /* Doji123Apps */ = {
 			isa = PBXGroup;
 			children = (
+				F65C41FB237A9A3D007F152C /* giphy.gif */,
+				F65C41FD237A9A51007F152C /* UIImage+Gif.swift */,
 				F6BE51A2237941870015AA9B /* AppDelegate.swift */,
 				F6BE51A4237941870015AA9B /* SceneDelegate.swift */,
 				F6BE51A6237941870015AA9B /* ViewController.swift */,
@@ -145,6 +151,7 @@
 			files = (
 				F6BE51AF237941890015AA9B /* LaunchScreen.storyboard in Resources */,
 				F6BE51AC237941890015AA9B /* Assets.xcassets in Resources */,
+				F65C41FC237A9A3D007F152C /* giphy.gif in Resources */,
 				F6BE51AA237941870015AA9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +171,7 @@
 				F6971C7B2379506000CC2CB7 /* MNISTHandwritingRecognition.swift in Sources */,
 				F6971C7C2379506000CC2CB7 /* RecognitionHandler.swift in Sources */,
 				F6971C78237945E100CC2CB7 /* MNISTClassifier.mlmodel in Sources */,
+				F65C41FE237A9A51007F152C /* UIImage+Gif.swift in Sources */,
 				F6971C80237960CB00CC2CB7 /* CobaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
